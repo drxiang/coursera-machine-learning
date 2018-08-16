@@ -98,7 +98,7 @@ Theta1_grad = 1/m * Delta_1; % 5
 Theta2_grad = 1/m * Delta_2;
 
 Theta1_grad(:,2:end) = Theta1_grad(:,2:end) + lambda/m*Theta1(:,2:end); % regularization
-Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + lambda/m*Theta2(:,2:end);
+Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + lambda/m*Theta2(:,2:end); 
 
 % -------------------------------------------------------------
 
